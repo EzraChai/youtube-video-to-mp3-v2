@@ -47,7 +47,7 @@ export default function DownloadCard() {
 
   return (
     <>
-      <Card className="w-[520px]">
+      <Card className="mx-4 md:w-[520px]">
         <form onSubmit={handleSubmit}>
           <CardHeader>
             <CardTitle>TubeToMP3</CardTitle>

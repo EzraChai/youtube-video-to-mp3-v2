@@ -28,7 +28,7 @@ export default function Navbar() {
 
   return (
     <>
-      <nav className="flex items-center justify-between max-w-5xl py-2 mx-auto navbar">
+      <nav className="flex items-center justify-between max-w-5xl px-2 py-2 mx-auto md:px-0 navbar">
         <div className="text-xl font-bold navbar-title">TubeToMP3</div>
         <div className="navbar-links">
           <DropdownMenu>
