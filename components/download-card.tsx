@@ -30,8 +30,6 @@ export default function DownloadCard() {
     setLoading(true);
     setDownloadLink("");
 
-    console.log(link);
-
     const data = await fetch("/api/download", {
       body: JSON.stringify({ link }),
       method: "POST",
